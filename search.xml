@@ -3,7 +3,10 @@
   <entry>
     <title><![CDATA[First blogging by Tan]]></title>
     <url>%2F2019%2F07%2F28%2FFirst-blogging-by-Tan%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[第一篇个人博客记录记录MarkDown基本语法的使用标签元素的熟系 列表1 列表2 a 子列表a b 子列表b 列表3 百度一下 斜体 加粗 ‘‘ ‘’’ ''' 我的内容是引用的]]></content>
+      <categories>
+        <category>生活感触</category>
+      </categories>
       <tags>
         <tag>Testing</tag>
         <tag>碎碎念</tag>
