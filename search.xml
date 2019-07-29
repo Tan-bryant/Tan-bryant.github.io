@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[不蒜子数据统计失效及解决办法]]></title>
+    <url>%2F2019%2F07%2F29%2F%E4%B8%8D%E8%92%9C%E5%AD%90%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1%E5%A4%B1%E6%95%88%E5%8F%8A%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[#问题Hexo博客的不蒜子数据统计失效了 #解决 ##原因不蒜子是Hexo里面的第三方服务集成，而前期不蒜子的域名更改了，所以需要修改Hexo里面的配置文件 ##解决步骤进入你自己所在的Hexo目录下找到\themes\next\layout\_third-party\analytics，【不同的主题路径相对不同，我这里用的是Next主题】 打开文件busuanzi-counter.swig， 将里面的 &lt;script async src=&quot;https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt; 修改为 &lt;script async src=&quot;https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;， 保存后，hexo d -g 就可以了。]]></content>
+      <categories>
+        <category>技术提升</category>
+      </categories>
+      <tags>
+        <tag>-Hexo -MarkDown -Bug</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[First blogging by Tan]]></title>
     <url>%2F2019%2F07%2F28%2FFirst-blogging-by-Tan%2F</url>
     <content type="text"><![CDATA[第一篇个人博客记录记录MarkDown基本语法的使用标签元素的熟系 列表1 列表2 a 子列表a b 子列表b 列表3 百度一下 斜体 加粗 &lt;html&gt;&lt;/html&gt; 1234567&lt;html&gt; &lt;head&gt; &lt;title&gt;&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;/body&gt;&lt;/html&gt; 我的内容是引用的]]></content>
