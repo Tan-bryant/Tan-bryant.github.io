@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[TED|总是想法太多怎么办？]]></title>
+    <url>%2F2019%2F07%2F31%2FTED-%E6%80%BB%E6%98%AF%E6%83%B3%E6%B3%95%E5%A4%AA%E5%A4%9A%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F%2F</url>
+    <content type="text"><![CDATA[TED|总是想法太多怎么办？Why do we fail to follow through on our ideas? This is the paradox of choice, more choice offen lends to less action. Five ways to Overcome too many ideas syndrome综合症 . 1.Create mini-deadlines 2.Use the 80/20 rule 3.Trust your gut直觉 Often, snap judgements made within seconds lead to better decisions than a more cautious谨慎 throughly planned approach. 4.Develop the habit of finishing. 5.Practice Quitting放弃 Finish what you start.]]></content>
+      <categories>
+        <category>语言学习</category>
+      </categories>
+      <tags>
+        <tag>TED</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[不蒜子数据统计失效及解决办法]]></title>
     <url>%2F2019%2F07%2F29%2F%E4%B8%8D%E8%92%9C%E5%AD%90%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1%E5%A4%B1%E6%95%88%E5%8F%8A%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%2F</url>
     <content type="text"><![CDATA[问题Hexo博客的不蒜子数据统计失效了 解决原因不蒜子是Hexo里面的第三方服务集成，而前期不蒜子的域名更改了，所以需要修改Hexo里面的配置文件 解决步骤进入你自己所在的Hexo目录下找到\themes\next\layout\_third-party\analytics，【不同的主题路径相对不同，我这里用的是Next主题】 打开文件busuanzi-counter.swig， 将里面的 &lt;script async src=&quot;https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt; 修改为 &lt;script async src=&quot;https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;， 保存后，hexo d -g 就可以了。]]></content>
@@ -28,10 +39,10 @@
         <category>生活记录</category>
       </categories>
       <tags>
+        <tag>Testing</tag>
         <tag>Hexo</tag>
         <tag>MarkDown</tag>
         <tag>Bug</tag>
-        <tag>Testing</tag>
       </tags>
   </entry>
   <entry>
