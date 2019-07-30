@@ -8,21 +8,9 @@
         <category>技术提升</category>
       </categories>
       <tags>
-        <tag>MarkDown</tag>
         <tag>Hexo</tag>
-        <tag>Bug</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[First blogging by Tan]]></title>
-    <url>%2F2019%2F07%2F28%2FFirst-blogging-by-Tan%2F</url>
-    <content type="text"><![CDATA[第一篇个人博客记录记录MarkDown基本语法的使用标签元素的熟系 列表1 列表2 a 子列表a b 子列表b 列表3 百度一下 斜体 加粗 &lt;html&gt;&lt;/html&gt; 1234567&lt;html&gt; &lt;head&gt; &lt;title&gt;&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;/body&gt;&lt;/html&gt; 我的内容是引用的]]></content>
-      <categories>
-        <category>技术提升</category>
-      </categories>
-      <tags>
-        <tag>Testing</tag>
         <tag>MarkDown</tag>
+        <tag>Bug</tag>
       </tags>
   </entry>
   <entry>
