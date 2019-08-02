@@ -19,6 +19,7 @@
     <content type="text"><![CDATA[TED|Why do we have to go to plan B?引入 We grow up -inevitably不可避免 with a strong attachment依赖 to a plan A.That is,an idea of how our lives will go and what we need to do to achieve our particular特别的 set of well-defined goals. 原因 But then,for some of us and at one level all of us,life turns out to have made a few other plans. 理由 Who could have predicted预言 that the lively and hopeful little boy or girl we once were would have to,end up in such a forlorn孤苦伶仃的 and pitiful situation? 1.Plan As simply do not work out all the time,no one gets through life with all their careful plan As intact完好无损的2.Realising that we are eminently极其 capable有能力 of dereloping very decent体面 plan Bs结尾 One door may close but there truly are many other entrances to try. There was no one script for us witten at our birth and nor does there need to be only one going forward. We should simply feel confident相信 that were the universe to command it, we would know how to find a very different path.]]></content>
       <categories>
         <category>语言学习</category>
+        <category>TED</category>
       </categories>
       <tags>
         <tag>TED</tag>
@@ -30,6 +31,7 @@
     <content type="text"><![CDATA[TED|总是想法太多怎么办？Why do we fail to follow through on our ideas? This is the paradox of choice, more choice offen lends to less action. Five ways to Overcome too many ideas syndrome综合症 . 1.Create mini-deadlines 2.Use the 80/20 rule 3.Trust your gut直觉 Often, snap judgements made within seconds lead to better decisions than a more cautious谨慎 throughly planned approach. 4.Develop the habit of finishing. 5.Practice Quitting放弃 Finish what you start.]]></content>
       <categories>
         <category>语言学习</category>
+        <category>TED</category>
       </categories>
       <tags>
         <tag>TED</tag>
@@ -41,6 +43,7 @@
     <content type="text"><![CDATA[问题Hexo博客的不蒜子数据统计失效了 解决原因不蒜子是Hexo里面的第三方服务集成，而前期不蒜子的域名更改了，所以需要修改Hexo里面的配置文件 解决步骤进入你自己所在的Hexo目录下找到\themes\next\layout\_third-party\analytics，【不同的主题路径相对不同，我这里用的是Next主题】 打开文件busuanzi-counter.swig， 将里面的 &lt;script async src=&quot;https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt; 修改为 &lt;script async src=&quot;https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;， 保存后，hexo d -g 就可以了。]]></content>
       <categories>
         <category>技术提升</category>
+        <category>Hexo</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -54,6 +57,7 @@
     <content type="text"><![CDATA[第一篇个人博客记录记录MarkDown基本语法的使用标签元素的熟系 列表1 列表2 a 子列表a b 子列表b 列表3 百度一下 斜体 加粗 &lt;html&gt;&lt;/html&gt; 1234567&lt;html&gt; &lt;head&gt; &lt;title&gt;&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;/body&gt;&lt;/html&gt; 我的内容是引用的]]></content>
       <categories>
         <category>技术提升</category>
+        <category>Hexo</category>
       </categories>
       <tags>
         <tag>Testing</tag>
