@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[NOI-1007]]></title>
+    <url>%2F2019%2F08%2F28%2FNOI-1007%2F</url>
+    <content type="text"><![CDATA[NOI-1007题目连接http://oj.noi.cn/oj/#main/show/1007 题解%求余是用于int型 123456double a,b,r;int k;cin&gt;&gt;a&gt;&gt;b;k=a/b;r=a-k*b;cout&lt;&lt;fixed&lt;&lt;setprecision(2)&lt;&lt;r&lt;&lt;endl;]]></content>
+      <categories>
+        <category>技术提升</category>
+        <category>C++</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>NOI</tag>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[NOI-1006]]></title>
+    <url>%2F2019%2F08%2F28%2FNOI-1006%2F</url>
+    <content type="text"><![CDATA[NOI-1006题目连接http://oj.noi.cn/oj/#main/show/1006 题解1234double a,b,c,x;cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;x=20-a-b-c;cout&lt;&lt;x&lt;&lt;endl;]]></content>
+      <categories>
+        <category>技术提升</category>
+        <category>C++</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>NOI</tag>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[NOI-1005]]></title>
+    <url>%2F2019%2F08%2F28%2FNOI-1005%2F</url>
+    <content type="text"><![CDATA[NOI-1005题目连接http://oj.noi.cn/oj/#main/show/1005 题解1234567float R,P,X,Y;int i;cin&gt;&gt;R&gt;&gt;X&gt;&gt;P;for(i=1;i&lt;=P;i++)&#123; Y=X*((100+R)/100);&#125;cout&lt;&lt;fixed&lt;&lt;setprecision(2)&lt;&lt;Y&lt;&lt;endl;]]></content>
+      <categories>
+        <category>技术提升</category>
+        <category>C++</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>NOI</tag>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[NOI-1004]]></title>
     <url>%2F2019%2F08%2F28%2FNOI-1004%2F</url>
     <content type="text"><![CDATA[NOI-1004题目连接http://oj.noi.cn/oj/#main/show/1004 题解12345int n,m,a;int Z;cin&gt;&gt;n&gt;&gt;m&gt;&gt;a;Z=(n/a)*(m/a);cout&lt;&lt;Z&lt;&lt;endl;]]></content>
