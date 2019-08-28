@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[NOI-1004]]></title>
+    <url>%2F2019%2F08%2F28%2FNOI-1004%2F</url>
+    <content type="text"><![CDATA[NOI-1004题目连接http://oj.noi.cn/oj/#main/show/1004 题解12345int n,m,a;int Z;cin&gt;&gt;n&gt;&gt;m&gt;&gt;a;Z=(n/a)*(m/a);cout&lt;&lt;Z&lt;&lt;endl;]]></content>
+      <categories>
+        <category>技术提升</category>
+        <category>C++</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>NOI</tag>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[NOI-1003]]></title>
+    <url>%2F2019%2F08%2F28%2FNOI-1003%2F</url>
+    <content type="text"><![CDATA[NOI-1003题目连接http://oj.noi.cn/oj/#main/show/1003 题解12345int x;cin&gt;&gt;x;x += x*1000;x = x / 7 / 11 / 13;cout&lt;&lt;x&lt;&lt;endl;]]></content>
+      <categories>
+        <category>技术提升</category>
+        <category>C++</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>NOI</tag>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[NOI-1002]]></title>
+    <url>%2F2019%2F08%2F28%2FNOI-1002%2F</url>
+    <content type="text"><![CDATA[NOI-1002题目连接http://oj.noi.cn/oj/#main/show/1002 题解思路很简单，对于操作控制小数点位数的函数fixed，setprecision( )的新认识。 1234567891011double s,a,b,c;double area;cout&lt;&lt;&quot;请输入三角形三条边边长：&quot;&lt;&lt;endl;cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;s = (a+b+c)/2;area = sqrt(s*(s-a)*(s-b)*(s-c));if(a+b&gt;=c &amp;&amp; a+c&gt;=b &amp;&amp; b+c&gt;=a)&#123; cout&lt;&lt;fixed&lt;&lt;setprecision(4)&lt;&lt;area&lt;&lt;endl;//控制小数点位数&#125;else&#123; cout&lt;&lt;&quot;无法组成三角形&quot;&lt;&lt;endl; &#125;]]></content>
+      <categories>
+        <category>技术提升</category>
+        <category>C++</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>NOI</tag>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[TED|内心强大的人有哪些表现？]]></title>
     <url>%2F2019%2F08%2F22%2FTED-%E5%86%85%E5%BF%83%E5%BC%BA%E5%A4%A7%E7%9A%84%E4%BA%BA%E6%9C%89%E5%93%AA%E4%BA%9B%E8%A1%A8%E7%8E%B0%EF%BC%9F%2F</url>
     <content type="text"><![CDATA[TED|内心强大的人有哪些表现？​ You can be the smallest person and still have the power to get over bad days. Ofter,we underestimate低估 what a healthy mildest can do for us. ​ Here are 10 signs you are mentally stronger than most people: 1. You allow yourself to cry.(√)​ You don’t need to always have it stronger. Crying is not a sign of weakness标志. 2. You don’t try to control everything.(×)​ In this day and age,we emphasize hustling匆匆完成,we think that if we are’t overloading ourselves with tasks then we won’t get the results we want. But,peace is important. Sometimes you just have to be patient and wait things out. 3. You use your time wisely明智地.(√)​ Channel your efforts努力 into other areas of self-improvement and be mindful关注 of not only your goals but yourself. Making everyday count充实. 4. You practice gratitude感恩.(√)​ Don’t fall in the trap of playing the victim受害者 that just holds you back even further. 5. You are kind to others.(√)​ Practicing empathy同情心,sympathy同情 and compassion怜悯 even when everything is going wrong is a sign of true strength. 6. You are open to new ideas.(×)​ Mentally strong people will not stubbornly固执 hold on to situations that no longer serve them well. Instead, they will welcome new ideas. Let go of what keeps them from growing and adapt to lifestyles changes. 7. You learn from your mistakes.(√)​ Learning to forgive yourself, apologizing when you’re done something wrong. 8. You spend money responsibly.(×)​ Mentally strong people are self-disciplined. 9. You don’t lean on codependency依赖.(×)​ You allow others to support you, not rescue拯救 you. ​ In turn,this strengthens加强 your relationships when you don’t manipulate控制 or possess others to help you. 10. You continue to persist维持.(√)​ Aware of their limitations and practice realistic optimism. ​ Focusing on what’s in front of them. Taking things one day at time. Count: 6/10=60]]></content>
@@ -13,9 +55,18 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
+    <title><![CDATA[NOI-1001]]></title>
     <url>%2F2019%2F08%2F19%2FNOI-1001%2F</url>
-    <content type="text"><![CDATA[NOI-1001题目连接http://oj.noi.cn/oj/#main/show/1001 题解]]></content>
+    <content type="text"><![CDATA[NOI-1001题目连接http://oj.noi.cn/oj/#main/show/1001 题解开始练手，再简单不过的Hello，world了 1234float F,C;cin&gt;&gt;F;C=(F-32)*5/9;cout&lt;&lt;C&lt;&lt;endl;]]></content>
+      <categories>
+        <category>技术提升</category>
+        <category>C++</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>NOI</tag>
+        <tag>算法</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[云南之旅]]></title>
