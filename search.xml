@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[TED|如何避免浪费注意力]]></title>
+    <url>%2F2019%2F08%2F29%2FTED-%E5%A6%82%E4%BD%95%E9%81%BF%E5%85%8D%E6%B5%AA%E8%B4%B9%E6%B3%A8%E6%84%8F%E5%8A%9B%2F</url>
+    <content type="text"><![CDATA[TED|如何避免浪费注意力​ Energy and attention are a finite有限 resoure. They are directly funded by the amount of sleep and rest an individual个人的 gets. If you want to experience true, lasting success in any area of you life, you need to learn, how to fill up your “tank” more efficiently. After that, learn how to channel引导 your energy properly. ​ Here are three undeniable不可否认 energy-wasters, your need to quit now. 1.Multitasking.​ Essentially本质上, for every different task we switch to, our attention “drags延迟“ a little. Instead of multitasking, spend uninterrupted不间断的 and intensely强烈的 focused periods阶段 of time on one or two projects. 2.”Good “ Opportunities.​ Your can’t achieve your deepest and most meaningful work while you’re distracted doing sundry杂项的 little projects that cost more than they’re worth. You need to say no to opportunities that are just “good”, only say yes to great ones. 3.Relations With the Wrong People.​ The most potent and true success is narrowly狭隘的 defined and undiluted纯洁的. In Conclusion.​ Your energy and attention reserves储备 are precious珍稀的. I want every spare moment i have to be spent on my most important projects. ​ “The difference between successful people and really successful perple is that really successful people say no to almost everything.”]]></content>
+      <categories>
+        <category>语言学习</category>
+        <category>TED</category>
+      </categories>
+      <tags>
+        <tag>TED</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[PAT-1002]]></title>
     <url>%2F2019%2F08%2F29%2FPAT-1002%2F</url>
     <content type="text"><![CDATA[PAT-1002题目连接https://pintia.cn/problem-sets/994805260223102976/problems/994805324509200384 题解用到数组遍历及储存会方便很多，一开始自己是使用求余直接求和，但是达不到预期效果。参考后修改为数组储存形式。 1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950//PAT-1002void int_pinyin(int a)&#123; switch(a)&#123; case 0:cout&lt;&lt;&quot;ling&quot;;break; case 1:cout&lt;&lt;&quot;yi&quot;;break; case 2:cout&lt;&lt;&quot;er&quot;;break; case 3:cout&lt;&lt;&quot;san&quot;;break; case 4:cout&lt;&lt;&quot;si&quot;;break; case 5:cout&lt;&lt;&quot;wu&quot;;break; case 6:cout&lt;&lt;&quot;liu&quot;;break; case 7:cout&lt;&lt;&quot;qi&quot;;break; case 8:cout&lt;&lt;&quot;ba&quot;;break; case 9:cout&lt;&lt;&quot;jiu&quot;;break; &#125;&#125;int main() &#123;// 记录数字 char a[101]; int i;// 计算和 int sum = 0;// 输入数字 cin&gt;&gt;a;// 计算和 while(a[i]!=&apos;\0&apos;)&#123; sum+=a[i]-&apos;0&apos;; i++; &#125;// 输出和// cout&lt;&lt;sum&lt;&lt;endl; int b[11],j=0;// 如果和为0 if(sum==0)&#123; int_pinyin(0); return 0; &#125;// 遍历和的每一位数 while(sum!=0)&#123; b[j]=sum%10; sum=sum/10; j++; &#125;// 输出对应中文拼音 for(int i=j-1;i&gt;0;--i)&#123; int_pinyin(b[i]); cout&lt;&lt;&quot; &quot;; &#125; int_pinyin(b[0]); return 0;&#125;]]></content>
@@ -179,18 +191,6 @@
     <title><![CDATA[TED|总是想法太多怎么办？]]></title>
     <url>%2F2019%2F07%2F31%2FTED-%E6%80%BB%E6%98%AF%E6%83%B3%E6%B3%95%E5%A4%AA%E5%A4%9A%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F%2F</url>
     <content type="text"><![CDATA[TED|总是想法太多怎么办？Why do we fail to follow through on our ideas? This is the paradox of choice, more choice offen lends to less action. Five ways to Overcome too many ideas syndrome综合症 . 1.Create mini-deadlines 2.Use the 80/20 rule 3.Trust your gut直觉 Often, snap judgements made within seconds lead to better decisions than a more cautious谨慎 throughly planned approach. 4.Develop the habit of finishing. 5.Practice Quitting放弃 Finish what you start.]]></content>
-      <categories>
-        <category>语言学习</category>
-        <category>TED</category>
-      </categories>
-      <tags>
-        <tag>TED</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[TED|如何避免浪费注意力]]></title>
-    <url>%2F2019%2F07%2F31%2FTED-%E5%A6%82%E4%BD%95%E9%81%BF%E5%85%8D%E6%B5%AA%E8%B4%B9%E6%B3%A8%E6%84%8F%E5%8A%9B%2F</url>
-    <content type="text"><![CDATA[TED|如何避免浪费注意力​ Energy and attention are a finite有限 resoure. They are directly funded by the amount of sleep and rest an individual个人的 gets. If you want to experience true, lasting success in any area of you life, you need to learn, how to fill up your “tank” more efficiently. After that, learn how to channel引导 your energy properly. ​ Here are three undeniable不可否认 energy-wasters, your need to quit now. 1.Multitasking.​ Essentially本质上, for every different task we switch to, our attention “drags延迟“ a little. Instead of multitasking, spend uninterrupted不间断的 and intensely强烈的 focused periods阶段 of time on one or two projects. 2.”Good “ Opportunities.​ Your can’t achieve your deepest and most meaningful work while you’re distracted doing sundry杂项的 little projects that cost more than they’re worth. You need to say no to opportunities that are just “good”, only say yes to great ones. 3.Relations With the Wrong People.​ The most potent and true success is narrowly狭隘的 defined and undiluted纯洁的. In Conclusion.​ Your energy and attention reserves储备 are precious珍稀的. I want every spare moment i have to be spent on my most important projects. ​ “The difference between successful people and really successful perple is that really successful people say no to almost everything.”]]></content>
       <categories>
         <category>语言学习</category>
         <category>TED</category>
