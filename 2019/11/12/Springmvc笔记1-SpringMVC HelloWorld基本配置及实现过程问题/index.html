@@ -90,7 +90,7 @@
 <meta property="og:image" content="d:%5Chexo%5Csource%5Cimages%5C1573565809948.png">
 <meta property="og:image" content="d:%5Chexo%5Csource%5Cimages%5C1573567349168.png">
 <meta property="og:image" content="d:%5Chexo%5Csource%5Cimages%5C1573567495390.png">
-<meta property="og:updated_time" content="2019-11-13T07:54:21.427Z">
+<meta property="og:updated_time" content="2019-11-13T08:01:02.236Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SpringMVC HelloWorld基本配置及实现过程问题">
 <meta name="twitter:description" content="SpringMVC HelloWorld基本配置及实现过程问题问题：在搭建SpringMVC开发环境过程中首先遇到的是springIDE配置的问题，一开始在eclipse的Marketplace下载的STS4.x，安装没有问题，当下下来后ALT+/发现并没有DispatcherServlet自动生成选项，并且新建项目中也没有spring只有springboot项目。 解决方案：在eclipse的M">
@@ -408,7 +408,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  351
+                  409
                 </span>
               
 
@@ -448,14 +448,14 @@
         <h2 id="SpringMVC-HelloWorld基本配置及实现过程问题"><a href="#SpringMVC-HelloWorld基本配置及实现过程问题" class="headerlink" title="SpringMVC HelloWorld基本配置及实现过程问题"></a>SpringMVC HelloWorld基本配置及实现过程问题</h2><h4 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h4><p>在搭建SpringMVC开发环境过程中首先遇到的是springIDE配置的问题，一开始在eclipse的Marketplace下载的STS4.x，安装没有问题，当下下来后ALT+/发现并没有DispatcherServlet自动生成选项，并且新建项目中也没有spring只有springboot项目。</p>
 <h4 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h4><p>在eclipse的Marketplace查找并下载回的STS3.x版本，下载后问题全部解决。</p>
 <p><img src="D:%5Chexo%5Csource%5Cimages%5C1573565809948.png" alt="1573565809948"></p>
-<h3 id="SpringMVC基本配置过程："><a href="#SpringMVC基本配置过程：" class="headerlink" title="SpringMVC基本配置过程："></a>SpringMVC基本配置过程：</h3><h4 id="1-web-xml配置DispatcherServlet"><a href="#1-web-xml配置DispatcherServlet" class="headerlink" title="1.web.xml配置DispatcherServlet"></a>1.web.xml配置DispatcherServlet</h4><p>``<servlet><code></code><servlet-name>springDispatcherServlet</servlet-name><code></code><servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class><code></code><init-param><code></code><param-name>contextConfigLocation</param-name><code></code><param-value>classpath:springmvc.xml</param-value><code></code></init-param><code></code><load-on-startup>1</load-on-startup><code>&lt;/servlet&gt;</code></servlet></p>
-<pre><code>&lt;!-- Map all requests to the DispatcherServlet for handling --&gt;
-&lt;servlet-mapping&gt;
-    &lt;servlet-name&gt;springDispatcherServlet&lt;/servlet-name&gt;
-    &lt;url-pattern&gt;/&lt;/url-pattern&gt;
-&lt;/servlet-mapping&gt;</code></pre><h4 id="2-配置springmvc-xml配置文件"><a href="#2-配置springmvc-xml配置文件" class="headerlink" title="2.配置springmvc.xml配置文件"></a>2.配置springmvc.xml配置文件</h4><p><code>&lt;context:component-scan base-package=&quot;com.atguigu.springmvc&quot;/&gt;</code></p>
+<h3 id="SpringMVC基本配置过程："><a href="#SpringMVC基本配置过程：" class="headerlink" title="SpringMVC基本配置过程："></a>SpringMVC基本配置过程：</h3><h4 id="1-web-xml配置DispatcherServlet"><a href="#1-web-xml配置DispatcherServlet" class="headerlink" title="1.web.xml配置DispatcherServlet"></a>1.web.xml配置DispatcherServlet</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;servlet&gt;</span><br><span class="line">&lt;servlet-name&gt;springDispatcherServlet&lt;/servlet-name&gt;&lt;servlet-class&gt;org.springframework.web.servlet.DispatcherServlet&lt;/servlet-class&gt;&lt;init-param&gt;&lt;param-name&gt;contextConfigLocation&lt;/param-name&gt;&lt;param-value&gt;classpath:springmvc.xml&lt;/param-value&gt;&lt;/init-param&gt;&lt;load-on-startup&gt;1&lt;/load-on-startup&gt;`</span><br><span class="line">&lt;/servlet&gt;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- Map all requests to the DispatcherServlet for handling --&gt;</span><br><span class="line">	&lt;servlet-mapping&gt;</span><br><span class="line">		&lt;servlet-name&gt;springDispatcherServlet&lt;/servlet-name&gt;</span><br><span class="line">		&lt;url-pattern&gt;/&lt;/url-pattern&gt;</span><br><span class="line">	&lt;/servlet-mapping&gt;</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-配置springmvc-xml配置文件"><a href="#2-配置springmvc-xml配置文件" class="headerlink" title="2.配置springmvc.xml配置文件"></a>2.配置springmvc.xml配置文件</h4><p><code>&lt;context:component-scan base-package=&quot;com.atguigu.springmvc&quot;/&gt;</code></p>
 <h4 id="3-编写控制器-Controller"><a href="#3-编写控制器-Controller" class="headerlink" title="3.编写控制器@Controller"></a>3.编写控制器@Controller</h4><h5 id="（1-使用-RequestMapping-注解来映射请求的URL"><a href="#（1-使用-RequestMapping-注解来映射请求的URL" class="headerlink" title="（1 使用@RequestMapping 注解来映射请求的URL"></a>（1 使用@RequestMapping 注解来映射请求的URL</h5><p><code>@RequestMapping(&quot;/helloworld&quot;)</code></p>
-<h5 id="（2-返回值通过InternalResourceViewResolver视图解释器解析为实际的物理视图"><a href="#（2-返回值通过InternalResourceViewResolver视图解释器解析为实际的物理视图" class="headerlink" title="（2 返回值通过InternalResourceViewResolver视图解释器解析为实际的物理视图"></a>（2 返回值通过InternalResourceViewResolver视图解释器解析为实际的物理视图</h5><p><code>&lt;bean class=&quot;org.springframework.web.servlet.view.InternalResourceViewResolver&quot;&gt;</code><br>        <code>&lt;property name=&quot;prefix&quot; value=&quot;/WEB-INF/views/&quot;&gt;&lt;/property&gt;</code><br>        <code>&lt;property name=&quot;suffix&quot; value=&quot;.jsp&quot;&gt;&lt;/property&gt;</code><br><code>&lt;/bean&gt;</code></p>
+<h5 id="（2-返回值通过InternalResourceViewResolver视图解释器解析为实际的物理视图"><a href="#（2-返回值通过InternalResourceViewResolver视图解释器解析为实际的物理视图" class="headerlink" title="（2 返回值通过InternalResourceViewResolver视图解释器解析为实际的物理视图"></a>（2 返回值通过InternalResourceViewResolver视图解释器解析为实际的物理视图</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;bean class=&quot;org.springframework.web.servlet.view.InternalResourceViewResolver&quot;&gt;</span><br><span class="line">		&lt;property name=&quot;prefix&quot; value=&quot;/WEB-INF/views/&quot;&gt;&lt;/property&gt;</span><br><span class="line">		&lt;property name=&quot;suffix&quot; value=&quot;.jsp&quot;&gt;&lt;/property&gt;</span><br><span class="line">&lt;/bean&gt;</span><br></pre></td></tr></table></figure>
+
 <h3 id="问题：-1"><a href="#问题：-1" class="headerlink" title="问题："></a>问题：</h3><p>HTTP无法请求到success页面，映射失败。</p>
 <p><img src="D:%5Chexo%5Csource%5Cimages%5C1573567349168.png" alt="1573567349168"></p>
 <h3 id="解决方案：-1"><a href="#解决方案：-1" class="headerlink" title="解决方案："></a>解决方案：</h3><p>找了无数的解决方案，也重新创建了几次项目…….都无法解决。</p>
