@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
+    <title><![CDATA[SpringMVC HelloWorld基本配置及实现过程问题]]></title>
     <url>%2F2019%2F11%2F12%2FSpringmvc%E7%AC%94%E8%AE%B01-SpringMVC%20HelloWorld%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%E5%8F%8A%E5%AE%9E%E7%8E%B0%E8%BF%87%E7%A8%8B%E9%97%AE%E9%A2%98%2F</url>
-    <content type="text"><![CDATA[title: SpringMVC HelloWorld基本配置及实现过程问题tags: Java SpringMVCcategories: 技术提升 SpringMVC SpringMVC HelloWorld基本配置及实现过程问题问题：在搭建SpringMVC开发环境过程中首先遇到的是springIDE配置的问题，一开始在eclipse的Marketplace下载的STS4.x，安装没有问题，当下下来后ALT+/发现并没有DispatcherServlet自动生成选项，并且新建项目中也没有spring只有springboot项目。 解决方案：在eclipse的Marketplace查找并下载回的STS3.x版本，下载后问题全部解决。 SpringMVC基本配置过程：1.web.xml配置DispatcherServlet``springDispatcherServletorg.springframework.web.servlet.DispatcherServletcontextConfigLocationclasspath:springmvc.xml1&lt;/servlet&gt; &lt;!-- Map all requests to the DispatcherServlet for handling --&gt; &lt;servlet-mapping&gt; &lt;servlet-name&gt;springDispatcherServlet&lt;/servlet-name&gt; &lt;url-pattern&gt;/&lt;/url-pattern&gt; &lt;/servlet-mapping&gt;2.配置springmvc.xml配置文件&lt;context:component-scan base-package=&quot;com.atguigu.springmvc&quot;/&gt; 3.编写控制器@Controller（1 使用@RequestMapping 注解来映射请求的URL@RequestMapping(&quot;/helloworld&quot;) （2 返回值通过InternalResourceViewResolver视图解释器解析为实际的物理视图&lt;bean class=&quot;org.springframework.web.servlet.view.InternalResourceViewResolver&quot;&gt; &lt;property name=&quot;prefix&quot; value=&quot;/WEB-INF/views/&quot;&gt;&lt;/property&gt; &lt;property name=&quot;suffix&quot; value=&quot;.jsp&quot;&gt;&lt;/property&gt;&lt;/bean&gt; 问题：HTTP无法请求到success页面，映射失败。 解决方案：找了无数的解决方案，也重新创建了几次项目…….都无法解决。 最后是将Project Build了一次，可以了……build project 的作用就大家去百度一下了吧emmm]]></content>
+    <content type="text"><![CDATA[SpringMVC HelloWorld基本配置及实现过程问题问题：在搭建SpringMVC开发环境过程中首先遇到的是springIDE配置的问题，一开始在eclipse的Marketplace下载的STS4.x，安装没有问题，当下下来后ALT+/发现并没有DispatcherServlet自动生成选项，并且新建项目中也没有spring只有springboot项目。 解决方案：在eclipse的Marketplace查找并下载回的STS3.x版本，下载后问题全部解决。 SpringMVC基本配置过程：1.web.xml配置DispatcherServlet``springDispatcherServletorg.springframework.web.servlet.DispatcherServletcontextConfigLocationclasspath:springmvc.xml1&lt;/servlet&gt; &lt;!-- Map all requests to the DispatcherServlet for handling --&gt; &lt;servlet-mapping&gt; &lt;servlet-name&gt;springDispatcherServlet&lt;/servlet-name&gt; &lt;url-pattern&gt;/&lt;/url-pattern&gt; &lt;/servlet-mapping&gt;2.配置springmvc.xml配置文件&lt;context:component-scan base-package=&quot;com.atguigu.springmvc&quot;/&gt; 3.编写控制器@Controller（1 使用@RequestMapping 注解来映射请求的URL@RequestMapping(&quot;/helloworld&quot;) （2 返回值通过InternalResourceViewResolver视图解释器解析为实际的物理视图&lt;bean class=&quot;org.springframework.web.servlet.view.InternalResourceViewResolver&quot;&gt; &lt;property name=&quot;prefix&quot; value=&quot;/WEB-INF/views/&quot;&gt;&lt;/property&gt; &lt;property name=&quot;suffix&quot; value=&quot;.jsp&quot;&gt;&lt;/property&gt;&lt;/bean&gt; 问题：HTTP无法请求到success页面，映射失败。 解决方案：找了无数的解决方案，也重新创建了几次项目…….都无法解决。 最后是将Project Build了一次，可以了……build project 的作用就大家去百度一下了吧emmm]]></content>
+      <categories>
+        <category>技术提升</category>
+        <category>SpringMVC</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>SpringMVC</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[TED|睡眠不足对我们身体有什么影响？]]></title>
