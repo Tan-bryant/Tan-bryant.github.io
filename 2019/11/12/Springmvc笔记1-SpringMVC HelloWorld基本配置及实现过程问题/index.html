@@ -79,16 +79,21 @@
 
 
 
-<meta name="description" content="小事闲谈 生活记录 趣事分享 人生轨迹">
-<meta property="og:type" content="website">
+<meta name="description" content="SpringMVC HelloWorld基本配置及实现过程问题问题：在搭建SpringMVC开发环境过程中首先遇到的是springIDE配置的问题，一开始在eclipse的Marketplace下载的STS4.x，安装没有问题，当下下来后ALT+/发现并没有DispatcherServlet自动生成选项，并且新建项目中也没有spring只有springboot项目。 解决方案：在eclipse的M">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Tan-bryant&#39;s Blogging">
-<meta property="og:url" content="http://yoursite.com/categories/技术提升/Hexo/index.html">
+<meta property="og:url" content="http://yoursite.com/2019/11/12/Springmvc笔记1-SpringMVC HelloWorld基本配置及实现过程问题/index.html">
 <meta property="og:site_name" content="Tan-bryant&#39;s Blogging">
-<meta property="og:description" content="小事闲谈 生活记录 趣事分享 人生轨迹">
+<meta property="og:description" content="SpringMVC HelloWorld基本配置及实现过程问题问题：在搭建SpringMVC开发环境过程中首先遇到的是springIDE配置的问题，一开始在eclipse的Marketplace下载的STS4.x，安装没有问题，当下下来后ALT+/发现并没有DispatcherServlet自动生成选项，并且新建项目中也没有spring只有springboot项目。 解决方案：在eclipse的M">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="c:%5CUsers%5CTan_bryant%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1573565809948.png">
+<meta property="og:image" content="c:%5CUsers%5CTan_bryant%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1573567349168.png">
+<meta property="og:image" content="c:%5CUsers%5CTan_bryant%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1573567495390.png">
+<meta property="og:updated_time" content="2019-11-13T01:17:38.455Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Tan-bryant&#39;s Blogging">
-<meta name="twitter:description" content="小事闲谈 生活记录 趣事分享 人生轨迹">
+<meta name="twitter:description" content="SpringMVC HelloWorld基本配置及实现过程问题问题：在搭建SpringMVC开发环境过程中首先遇到的是springIDE配置的问题，一开始在eclipse的Marketplace下载的STS4.x，安装没有问题，当下下来后ALT+/发现并没有DispatcherServlet自动生成选项，并且新建项目中也没有spring只有springboot项目。 解决方案：在eclipse的M">
+<meta name="twitter:image" content="c:%5CUsers%5CTan_bryant%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1573565809948.png">
 
 
 
@@ -118,13 +123,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/categories/技术提升/Hexo/">
+  <link rel="canonical" href="http://yoursite.com/2019/11/12/Springmvc笔记1-SpringMVC HelloWorld基本配置及实现过程问题/">
 
 
 
 
 
-  <title>分类: Hexo | Tan-bryant's Blogging</title>
+  <title> | Tan-bryant's Blogging</title>
   
 
 
@@ -153,7 +158,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -279,105 +284,202 @@
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
   
-  <div class="post-block category">
-
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>Hexo<small>分类</small>
-        </h1>
-      </div>
-
-      
-        
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/12/Springmvc笔记1-SpringMVC HelloWorld基本配置及实现过程问题/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Tan_bryant">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/tan.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Tan-bryant's Blogging">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2019/08/02/Hexo文章加密/" itemprop="url">
-              
-                <span itemprop="name">Hexo文章加密</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline"></h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-08-02T01:32:49+08:00" content="2019-08-02">
-          08-02
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-11-12T21:58:25+08:00">
+                2019-11-12
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/11/12/Springmvc笔记1-SpringMVC HelloWorld基本配置及实现过程问题/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/11/12/Springmvc笔记1-SpringMVC HelloWorld基本配置及实现过程问题/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv">本文总阅读数 <i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>次
+            </span>
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  351
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2019/07/29/不蒜子数据统计失效及解决办法/" itemprop="url">
-              
-                <span itemprop="name">不蒜子数据统计失效及解决办法</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-07-29T20:56:50+08:00" content="2019-07-29">
-          07-29
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+      
 
       
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2019/07/28/First-blogging-by-Tan/" itemprop="url">
-              
-                <span itemprop="name">First blogging by Tan</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-07-28T17:22:00+08:00" content="2019-07-28">
-          07-28
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+        <h2 id="SpringMVC-HelloWorld基本配置及实现过程问题"><a href="#SpringMVC-HelloWorld基本配置及实现过程问题" class="headerlink" title="SpringMVC HelloWorld基本配置及实现过程问题"></a>SpringMVC HelloWorld基本配置及实现过程问题</h2><h4 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h4><p>在搭建SpringMVC开发环境过程中首先遇到的是springIDE配置的问题，一开始在eclipse的Marketplace下载的STS4.x，安装没有问题，当下下来后ALT+/发现并没有DispatcherServlet自动生成选项，并且新建项目中也没有spring只有springboot项目。</p>
+<h4 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h4><p>在eclipse的Marketplace查找并下载回的STS3.x版本，下载后问题全部解决。</p>
+<p><img src="C:%5CUsers%5CTan_bryant%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1573565809948.png" alt="1573565809948"></p>
+<h3 id="SpringMVC基本配置过程："><a href="#SpringMVC基本配置过程：" class="headerlink" title="SpringMVC基本配置过程："></a>SpringMVC基本配置过程：</h3><h4 id="1-web-xml配置DispatcherServlet"><a href="#1-web-xml配置DispatcherServlet" class="headerlink" title="1.web.xml配置DispatcherServlet"></a>1.web.xml配置DispatcherServlet</h4><p>``<servlet><code></code><servlet-name>springDispatcherServlet</servlet-name><code></code><servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class><code></code><init-param><code></code><param-name>contextConfigLocation</param-name><code></code><param-value>classpath:springmvc.xml</param-value><code></code></init-param><code></code><load-on-startup>1</load-on-startup><code>&lt;/servlet&gt;</code></servlet></p>
+<pre><code>&lt;!-- Map all requests to the DispatcherServlet for handling --&gt;
+&lt;servlet-mapping&gt;
+    &lt;servlet-name&gt;springDispatcherServlet&lt;/servlet-name&gt;
+    &lt;url-pattern&gt;/&lt;/url-pattern&gt;
+&lt;/servlet-mapping&gt;</code></pre><h4 id="2-配置springmvc-xml配置文件"><a href="#2-配置springmvc-xml配置文件" class="headerlink" title="2.配置springmvc.xml配置文件"></a>2.配置springmvc.xml配置文件</h4><p><code>&lt;context:component-scan base-package=&quot;com.atguigu.springmvc&quot;/&gt;</code></p>
+<h4 id="3-编写控制器-Controller"><a href="#3-编写控制器-Controller" class="headerlink" title="3.编写控制器@Controller"></a>3.编写控制器@Controller</h4><h5 id="（1-使用-RequestMapping-注解来映射请求的URL"><a href="#（1-使用-RequestMapping-注解来映射请求的URL" class="headerlink" title="（1 使用@RequestMapping 注解来映射请求的URL"></a>（1 使用@RequestMapping 注解来映射请求的URL</h5><p><code>@RequestMapping(&quot;/helloworld&quot;)</code></p>
+<h5 id="（2-返回值通过InternalResourceViewResolver视图解释器解析为实际的物理视图"><a href="#（2-返回值通过InternalResourceViewResolver视图解释器解析为实际的物理视图" class="headerlink" title="（2 返回值通过InternalResourceViewResolver视图解释器解析为实际的物理视图"></a>（2 返回值通过InternalResourceViewResolver视图解释器解析为实际的物理视图</h5><p><code>&lt;bean class=&quot;org.springframework.web.servlet.view.InternalResourceViewResolver&quot;&gt;</code><br>        <code>&lt;property name=&quot;prefix&quot; value=&quot;/WEB-INF/views/&quot;&gt;&lt;/property&gt;</code><br>        <code>&lt;property name=&quot;suffix&quot; value=&quot;.jsp&quot;&gt;&lt;/property&gt;</code><br><code>&lt;/bean&gt;</code></p>
+<h3 id="问题：-1"><a href="#问题：-1" class="headerlink" title="问题："></a>问题：</h3><p>HTTP无法请求到success页面，映射失败。</p>
+<p><img src="C:%5CUsers%5CTan_bryant%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1573567349168.png" alt="1573567349168"></p>
+<h3 id="解决方案：-1"><a href="#解决方案：-1" class="headerlink" title="解决方案："></a>解决方案：</h3><p>找了无数的解决方案，也重新创建了几次项目…….都无法解决。</p>
+<p>最后是将Project Build了一次，可以了……build project 的作用就大家去百度一下了吧emmm</p>
+<p><img src="C:%5CUsers%5CTan_bryant%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1573567495390.png" alt="1573567495390"></p>
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/09/16/TED-睡眠不足对我们身体有什么影响？/" rel="next" title="TED|睡眠不足对我们身体有什么影响？">
+                <i class="fa fa-chevron-left"></i> TED|睡眠不足对我们身体有什么影响？
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -385,6 +487,13 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
 
         </div>
         
@@ -405,8 +514,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -478,6 +596,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#SpringMVC-HelloWorld基本配置及实现过程问题"><span class="nav-number">1.</span> <span class="nav-text">SpringMVC HelloWorld基本配置及实现过程问题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#问题："><span class="nav-number">1.0.1.</span> <span class="nav-text">问题：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#解决方案："><span class="nav-number">1.0.2.</span> <span class="nav-text">解决方案：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#SpringMVC基本配置过程："><span class="nav-number">1.1.</span> <span class="nav-text">SpringMVC基本配置过程：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-web-xml配置DispatcherServlet"><span class="nav-number">1.1.1.</span> <span class="nav-text">1.web.xml配置DispatcherServlet</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-配置springmvc-xml配置文件"><span class="nav-number">1.1.2.</span> <span class="nav-text">2.配置springmvc.xml配置文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-编写控制器-Controller"><span class="nav-number">1.1.3.</span> <span class="nav-text">3.编写控制器@Controller</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#（1-使用-RequestMapping-注解来映射请求的URL"><span class="nav-number">1.1.3.1.</span> <span class="nav-text">（1 使用@RequestMapping 注解来映射请求的URL</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#（2-返回值通过InternalResourceViewResolver视图解释器解析为实际的物理视图"><span class="nav-number">1.1.3.2.</span> <span class="nav-text">（2 返回值通过InternalResourceViewResolver视图解释器解析为实际的物理视图</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#问题：-1"><span class="nav-number">1.2.</span> <span class="nav-text">问题：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#解决方案：-1"><span class="nav-number">1.3.</span> <span class="nav-text">解决方案：</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -645,6 +779,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
