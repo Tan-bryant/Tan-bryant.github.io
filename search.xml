@@ -1,24 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
+    <title><![CDATA[SpringMVC -JstlView]]></title>
     <url>%2F2019%2F11%2F21%2FSpringmvc%E7%AC%94%E8%AE%B04%20-JstlView%2F</url>
     <content type="text"><![CDATA[SpringMVC -JstlViewmvc_view-controller标签123&lt;!-- 配置直接转发的页面 --&gt; &lt;!-- 可以直接相应转发的页面，而无需再经过 Handler 的方法 --&gt; &lt;mvc:view-controller path="/success" view-name="success"/&gt; 12&lt;!-- 在实际开发中通常都需配置 mvc:annotation-driven --&gt;&lt;mvc:annotation-driven&gt;&lt;/mvc:annotation-driven&gt; 自定义视图 重定向]]></content>
+      <categories>
+        <category>技术提升</category>
+        <category>SpringMVC</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>SpringMVC</tag>
+      </tags>
   </entry>
   <entry>
     <title></title>
     <url>%2F2019%2F11%2F19%2F%E3%80%8A%E4%BB%A4%E4%BA%BA%E5%BF%83%E5%8A%A8%E7%9A%84offer%E3%80%8B%E8%A7%82%E5%BD%B1%E8%AE%B0%E5%BD%95%2F</url>
-    <content type="text"><![CDATA[《令人心动的offer》观影记录面试小技巧：回答问题时，眼神及注意力集中在提出问题的面试官身上 职场小tip：#通过主动和上司沟通提高工作效率 #团队意识的问题 #如何消除职场的负面情绪： 1.与信任的同伴吐槽 2.自我消化排解 3.向家人倾诉 技能思维：逻辑思维能力 问题分析能力 提升领导能力，敢于决策 学会情绪管理]]></content>
+    <content type="text"><![CDATA[title: 《令人心动的offer》观影记录tags: - 令人心动的offercategories: - 读观后感 《令人心动的offer》观影记录面试小技巧：回答问题时，眼神及注意力集中在提出问题的面试官身上 职场小tip：#通过主动和上司沟通提高工作效率 #团队意识的问题 #如何消除职场的负面情绪： 1.与信任的同伴吐槽 2.自我消化排解 3.向家人倾诉 技能思维：逻辑思维能力 问题分析能力 提升领导能力，敢于决策 学会情绪管理]]></content>
   </entry>
   <entry>
-    <title></title>
+    <title><![CDATA[SpringMVC -处理模型数据]]></title>
     <url>%2F2019%2F11%2F15%2FSpringmvc%E7%AC%94%E8%AE%B03-%E5%A4%84%E7%90%86%E6%A8%A1%E5%9E%8B%E6%95%B0%E6%8D%AE%2F</url>
     <content type="text"><![CDATA[SpringMVC -处理模型数据ModelAndView123456789@RequestMapping(&quot;/testModelAndView&quot;)public ModelAndView testModelAndView() &#123; String viewName = SUCCESS; ModelAndView modelAndView = new ModelAndView(viewName); //添加模型数据好ModelAndView 中。 modelAndView.addObject(&quot;time&quot;, new Date()); return modelAndView;&#125; 目标方法的返回值可以是 ModelAndView 类型。 其中可以包含视图和模型信息 SpringMVC 会把 ModelAndView 的model 中的数据放入到request 域对象中。 目标方法： 物理视图：到跳转页面 1time: $&#123;requestScope.time &#125; Map及Model@SessionAttribute@ModelAttribute]]></content>
+      <categories>
+        <category>技术提升</category>
+        <category>SpringMVC</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>SpringMVC</tag>
+      </tags>
   </entry>
   <entry>
     <title></title>
     <url>%2F2019%2F11%2F13%2F%E6%84%9F%E6%82%9F%E4%BA%BA%E9%97%B4%E7%83%9F%E7%81%AB%2F</url>
-    <content type="text"><![CDATA[感悟人间烟火在冰冷的人世间感悟人间烟火人这一生最难的，就是认识自己。——苏格拉底 当我蹲下抱住小小的Louis， 当快递小哥连连抱歉太多件太晚了，我说 ’无事 辛苦晒啦‘ 当穿过小巷，圆圆脸的小朋友小小的身躯穿着睡衣替妈妈提起那半桶水走过 在这段时间里，这都比追求、理想、人生这些来的温暖。 2019-11-13 傍晚 当楼下路口的黄狗见到我开始摇起尾巴，那一刻它貌似看懂了我的孤独 2019-11-17 夜晚]]></content>
+    <content type="text"><![CDATA[title: 感悟人间烟火tags:categories: - 生活记录 感悟人间烟火在冰冷的人世间感悟人间烟火人这一生最难的，就是认识自己。——苏格拉底 当我蹲下抱住小小的Louis， 当快递小哥连连抱歉太多件太晚了，我说 ’无事 辛苦晒啦‘ 当穿过小巷，圆圆脸的小朋友小小的身躯穿着睡衣替妈妈提起那半桶水走过 在这段时间里，这都比追求、理想、人生这些来的温暖。 2019-11-13 傍晚 当楼下路口的黄狗见到我开始摇起尾巴，那一刻它貌似看懂了我的孤独 2019-11-17 夜晚]]></content>
   </entry>
   <entry>
     <title><![CDATA[当生活脱离了轨迹]]></title>
@@ -32,9 +48,17 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
+    <title><![CDATA[SpringMVC -RequestMapping修饰类]]></title>
     <url>%2F2019%2F11%2F13%2FSpringmvc%E7%AC%94%E8%AE%B02-RequestMapping%E4%BF%AE%E9%A5%B0%E7%B1%BB%2F</url>
     <content type="text"><![CDATA[SpringMVC -RequestMapping修饰类RequestMapping修饰类@RequestMapping除了可以修饰方法还可以修饰类， 以及它的请求方式method，请求参数params，请求头，Ant风格的路径就详细记录了。 @RequestMapping里面还会用到： （1）@PathVariable请求参数：可以在目标方法中获得id （2）HiddenHttpMethodFilter，它可以把POST请求转为 DELETE 或 POST请求 * Rest风格的URL： * 对应CRUD为例： * POST 增加 * DELETE 删除 * PUT 修改 * GET 查询 * * 如何发送PUT请求和DELETE请求？ 1.web.xml中配置HiddenHttpMethodFilter 2.界面中发送POST请求 3.在发送POST的请求时携带一个type=&quot;hidden&quot; name=&quot;_method&quot; 的隐藏域，value值为DELETE或PUT 4.在目标方法@RequestMapping中，用RequestMethod设置method目标方法： &lt;form action=&quot;springmvc/testRest/1&quot; method=&quot;post&quot;&gt; &lt;input type=&quot;hidden&quot; name=&quot;_method&quot; value=&quot;DELETE&quot;/&gt; &lt;input type=&quot;submit&quot; value=&quot;TestPrest DELETE&quot;/&gt; &lt;/form&gt; &lt;br&gt;&lt;br&gt; &lt;form action=&quot;springmvc/testRest&quot; method=&quot;post&quot;&gt; &lt;input type=&quot;submit&quot; value=&quot;TestPrest Post&quot;&gt; &lt;/form&gt; &lt;br&gt;&lt;br&gt; &lt;a href=&quot;springmvc/testRest/1&quot;&gt;Test Rest Get&lt;/a&gt; &lt;br&gt;&lt;br&gt;物理视图： RequestParam修饰类@RequestParam可以用来映射请求参数。 value 值即请求参数的参数名 required 该参数是否必须，默认为true defaultValue 请求参数的默认值 目标方法： 123456@RequestMapping(value=&quot;/testRequestParam&quot;) public String testRequestParam(@RequestParam(value=&quot;username&quot;) String un, @RequestParam(value=&quot;age&quot;,required=false,defaultValue=&quot;0&quot;) int age) &#123; System.out.println(&quot;test RequestParam.username:&quot;+un+&quot;,age:&quot;+age); return SUCCESS; &#125; 物理视图： 1&lt;a href=&quot;springmvc/testRequestParam?username=sean&amp;age=11&quot;&gt;Test RequestParam&lt;/a&gt; RequestHeader修饰类@RequestHeader可以用来映射请求头。 CookieValue修饰类@CookieValue可以用来映射cookie值。 目标方法： @RequestMapping(&quot;/testCookieValue&quot;) public String testCookieValue(@CookieValue(value=&quot;&quot;) String sessionId) { System.out.println(&quot;testCookieValue:&quot;+sessionId); return SUCCESS; }使用POJO对象绑定请求参数目标方法： 12345@RequestMapping(&quot;/testPojo&quot;) public String testPojo(User user) &#123; System.out.println(&quot;testPojo:&quot;+user); return SUCCESS; &#125; 物理视图： username: password: email: age: city: province: 使用Servlet原生API作为参数目标方法： 1234567@RequestMapping(&quot;/testServletAPI&quot;) public void testServletAPI(HttpServletRequest request, HttpServletResponse response,Writer out) throws IOException &#123; System.out.println(&quot;testServletAPI,&quot;+request +&quot;,&quot;+response);// return SUCCESS; out.write(&quot;hello springmvc&quot;); &#125;]]></content>
+      <categories>
+        <category>技术提升</category>
+        <category>SpringMVC</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>SpringMVC</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[SpringMVC HelloWorld基本配置及实现过程问题]]></title>
